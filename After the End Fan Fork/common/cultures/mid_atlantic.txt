@@ -1,4 +1,4 @@
-###ÄNSI
+###Ã„NSI
 
 mid_atlantic = {
 	graphical_cultures = { westerngfx }
@@ -309,4 +309,40 @@ mid_atlantic = {
 		feminist = yes
 		modifier = default_culture_modifier
 	}
+	
+	newyorker = {
+		graphical_cultures = { englishgfx }
+		unit_graphical_cultures = { germangfx saxongfx }
+
+		color = { 0.1 0.2 0.4 }
+		
+		#combined Gothamite and Hudsonian superculture
+		#prefix and patronyms were combined?
+		#Anglo-Italian-Dutch with heavy Classical and Biblical influences
+		
+		male names = {
+			
+		}
+		female_names = {
+			
+		}
+		
+		from_dynasty_prefix = "van "
+		male_patronym = "szoon"
+		female_patronym = "sdochter"
+		prefix = no # The patronym is added as a suffix
+		
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		feminist = yes
+		modifier = default_culture_modifier
+	}
+}
 }
