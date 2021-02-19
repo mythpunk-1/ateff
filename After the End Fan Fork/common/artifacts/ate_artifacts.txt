@@ -864,9 +864,11 @@ gris_gris = {
 }
 
 crown_lion_judah = { #now uses the unique Byzantine crown sprite
-	monthly_character_prestige = 0.5
+	monthly_character_prestige = 1.0
+	monthly_character_piety = 1.0
 	same_religion_opinion = 10
 	martial = 2
+	learning = 2
 	active = {
 		OR = {
 			AND = {
@@ -875,13 +877,16 @@ crown_lion_judah = { #now uses the unique Byzantine crown sprite
 			}
 			AND = {
 				is_feudal = yes
-				religion_group = jewish_group
+				OR = {
+					religion_group = jewish_group
+					religion = rasta
+				}
 				higher_tier_than = KING
 			}
 		}
 	}
 	#not allowed gift anymore
-	quality = 4
+	quality = 5
 	flags = { religious crown jewelry unique }
 	stacking = no
 	picture = "GFX_crown_byzantine"
@@ -1978,6 +1983,27 @@ crown_california = {
 	flags = { unique crown jewelry crown_jewel }
 	picture = "GFX_crown_pahlavi"
 	slot = crown
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+scepter_nys = { # need to recolor the artifact, image is green right now!
+	monthly_character_prestige = 1.0
+	monthly_character_piety = 1.0
+	stewardship = 4
+	gothamite_opinion = 10
+	hudsonian_opinion = 10
+	yiddish_opinion = 10
+	newyorker_opinion = 10
+	quality = 5
+	active = {
+		has_landed_title = e_nys
+	}
+	flags = { unique scepter jewelry crown_jewel }
+	picture = "GFX_scepter_nys_ruby" #placeholder
+	slot = scepter
 	indestructible = yes
 	allowed_gift = {
 		always = no
