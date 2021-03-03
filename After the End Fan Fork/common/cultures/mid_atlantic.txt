@@ -1,4 +1,4 @@
-###ÄNSI
+###Ã„NSI
 
 mid_atlantic = {
 	graphical_cultures = { westerngfx }
@@ -305,6 +305,87 @@ mid_atlantic = {
 		pat_grm_name_chance = 5
 		mat_grm_name_chance = 40
 		mother_name_chance = 10
+		
+		feminist = yes
+		modifier = default_culture_modifier
+	}
+		newyorker = {
+		graphical_cultures = { englishgfx }
+		unit_graphical_cultures = { germangfx saxongfx }
+
+		color = { 0.1 0.2 0.4 }
+		
+		#combined Gothamite and Hudsonian superculture
+		#all shared names are included while prefix and patronyms were combined
+		#Anglo-Italian-Dutch with heavy Classical and Biblical
+		
+		male names = {
+			Aaron_Aaron Abel Abrahan_Abraham Achilles Adriaen_Adrian Agapett Ajax Alberht_Albert Alessander_Alexander Andre_Andrew Anton_Anthony Archibald Ardolph Arnold_Arnold Artur_Arthur August_Augustus Aurel_Aurelius
+			Baltus Bartolomeus_Bartholomew Basil Benicio Benjamin_Benjamin Beppe_Joseph Berthold Bertrand Brennan Bruce Brom Brutus Bruno Boniface
+			Caesar Caleb Cadwallader Cangueese Carles_Charles Carillon Carmine Cashunyon Casimir Cephas Charles_Charles Chester Christopher Cicero Clinton Connor Cotton Constantin_Constantine Cornelis_Cornelius Corvo Corydon Crassus Cyrus
+			Daman David_David Daniel_Daniel Dante Darius Derrick_Theoderic Diedrich_Theoderic Delby Deserontyon Dewitt Dorian
+			Eastman Ebenezer_Ebenezer Edgar Edward_Edward Edwin Eli Elihu Ellis Elmo Emeric Erastus Erasmis_Erasmus Ercole Ernest_Ernest Ethan Euclid Eugeny_Eugene Eusebe_Eusebius Eustace  Ezio Ezra
+			Faris Fernand_Ferdinand Ferrutt Flavis_Flavius Florell Francelin_Franklin Francis_Francis Franklin_Franklin Frederic_Frederick Friso
+			Giovannes_John Gerard_Gerard Giorge_George German_Germanus Gennard Gianluke_John-Luke Gianpaul_John-Paul Gioacchim_Joachim Girald_Gerald Grigory_Gregory Guy Guyasut Geoffrey_Geoffrey Gideon_Gideon Gerrit_Gerard Gemolo Galen
+			Hari Hayan Henreyk_Henry Hector_Hector Horatis_Horace Humbert Hudson Hendrick_Henry Hunter Hamilton Holbrook Harmanus_Herman Hugh Himerius Hector_Hector Homer Horace
+			Ichabod Idrees_Idris Ignatius Igor_Ingvar Isaac_Isaac Isaiah Isidorr_Isidore
+			Jason Jonas_Jonah Jacobbe_Jacob Joaquin_Joachim Joshua_Joshua Julius_Julius Jaime_James Johannes_John Jervis Josiah_Josiah Jocelyn Jasper Jovan Jeremiah 
+			Kiran Koch Kirke_Kirk Kent Kel
+			Lambert Lewis_Louis Levi Leander Leonard Leone_Leon Loren_Lawrence Lucis_Lucius Launcelot_Lancelot Leo_Leon Lewis_Louis Lemuel Lucan Linus
+			Morris_Maurice Martin_Martin Moses_Moses Montgomery Malcolm Mather Marius Manohar Meyer Michael_Michael Marcus_Mark Mattheus_Matthew Mohan
+			Nicholas_Nicholas Narciss Nevis Nestor Nunzis Nathaniel Norton Nestor
+			Oldstead Otetian Ogden Oliver_Oliver Oswald Ovid Orpheus Ottavis_Octavius Orion Ottone_Otto
+			Param Pieter_Peter Paulus_Paul Peregrin_Peregrine Patricis_Patrick Pindar Philip_Philip Phinehas_Phineas Pompey
+			Quincy Quentin Quoz
+			Rama Rudy_Rudolph Richard_Richard Robertus_Robert Rohan Ryan Roger_Roger Raymond_Raymond Rip Rodney Rufus_Red Rollin
+			Sameer_Samir Samuel_Samuel Sasha Stephen_Stephen Seth Stratis Salvator_Salvador Sylvester Silvis Sedgewick Stephanus_Stephen Stanwix Silus_Silas Simon_Simon Solon Sulla Seneca
+			Theo_Theodore Thom_Thomas Thaddeus Tacit Tullis Traynor Tehwehron Tompkin Truman Trajan
+			Ulderic Ulysses
+			Varian Vasily Venceslaus_Wenceslaus Vinay Vincent_Vincent Victor_Victor Vladimir Virgil
+			Wualter_Walter Washington Wuillem_William Whitehead Wagner Whitelaw Worcester
+			York Yohan_John Yuri_George
+			Xander_Alexander
+			Zachari_Zachary Zeno
+		}
+		female_names = {
+			Ada Albertine Alda Alita Amalia_Amelia Amina Anna_Anne Annalise Annetta Anita Anastacey_Anastasia Alexia Ariane Arya Aliequippa Alice_Alice Alexandra_Alexandra Armgard 
+			Barbara_Barbara Berenice Bernardina Bridget Brunella Bethany Beatrix_Beatrice Bella
+			Carmen Catharyna_Catherine Chelsea Caro Clarice Chelo_Consuela Christina_Christina Carlotte_Charlotte Cynthia Caroline_Caroline Chelsea Cassandra Camilla Cornelia
+			Daisy Dolores Degonadonty Donata Doris Dorothy_Dorothy Dido Diana
+			Esmerald_Esmerelda Eleanor_Eleanor Eunice Estella Ellen Elizabeth_Elizabeth Emma_Emma Electra
+			Fay Francisca_Frances Fiorina Fioretta
+			Gemma Gita Graziella Geraldine
+			Hermanna Henrietta_Henrietta Helen Hana_Hannah Hiawatha Hillary_Hilary Helen_Helen
+			Ines_Agnes Irene
+			Jordan Juliana Judith Jane_Jane Jennifer_Jennifer Jocelyn Julia Juno
+			Karam Keiran Kirsten Katrina_Catherine
+			Lana Lauren Lila Lola Luna Leona Lauren Lavinia Lucrece
+			Martha Maria_Mary Maya Mina_Wilhelmina Margarita_Margaret Maxima Magdalene Mercedes Miran Misha Mona Myrtle Molly Marcia
+			Nadia Nari Niki Nina
+			Owandah Ogarita
+			Paris Pauline_Pauline Pamela Penelope
+			Ramona Rebecca Rosalia Rita Rin Regina Renata Rhoda 
+			Sasha Salome Sanya Stephanie_Stephanie Sophia Sori Shelley Shelby
+			Tania Tara Teresita_Theresa Thea Theodosia Tiaogeara
+			Vera Victoria Velma Viola
+			Waneik
+			Yolanda
+			Zelda Zelina Zenobia
+		}
+		
+		from_dynasty_prefix = "van "
+		male_patronym = "szoon"
+		female_patronym = "sdochter"
+		prefix = no # The patronym is added as a suffix
+		
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
 		
 		feminist = yes
 		modifier = default_culture_modifier
