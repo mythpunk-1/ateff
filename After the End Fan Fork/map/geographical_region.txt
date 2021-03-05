@@ -387,6 +387,15 @@ custom_gran_colombia = {
 	}
 }
 
+custom_greater_new_york = {
+	regions = {
+		custom_gotham
+	}
+	duchies = {
+		d_adirondack d_finger_lakes d_onondaga d_mohawk_valley d_hudson_valley d_champlain d_catskill
+	}
+}
+
 custom_weather_region = {
 	regions = {
 		world_gulf_coast world_caribbean
